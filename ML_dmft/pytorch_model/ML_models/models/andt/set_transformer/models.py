@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Set Transformer
+===============
+
+# Modifed From http://proceedings.mlr.press/v97/lee19d.html
+"""
+
 from .modules import *
 from ..layers import MLP_PositionwiseFeedForward
 
