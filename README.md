@@ -1,6 +1,6 @@
-# SIAM Transformer
+# SCALIN package 
 
-SIAM Transformer is a Python package that uses Machine Learning to simulate Dynamical Mean-Field Theory (DMFT). 
+Strongly Correlated Approach with Language Inspired Neuranet (SCALIN) is a Python package that uses nueron network to simulate Dynamical Mean-Field Theory (DMFT). 
 
 ## Installation 
 
@@ -10,13 +10,13 @@ bash ./install.sh dmft_env
 
 ### Optional Package
 
-SIAM Transformer provides an interface for the Exact Diagonalization (ED) method of solving the Anderson Impurity Model (AIM). This ED method implementation can be found in an external library, and it needs to be installed manually from this GitHub repository: https://github.com/francoisjamet/ed_solver. As well as HubbardI solver, the kernal is refered to https://triqs.github.io/hubbardI/latest/install.html.
+SCALIN provides an interface for the Exact Diagonalization (ED) method of solving the Anderson Impurity Model (AIM). This ED method implementation can be found in an external library, and it needs to be installed manually from this GitHub repository: https://github.com/francoisjamet/ed_solver. As well as HubbardI solver, the kernal is refered to https://triqs.github.io/hubbardI/latest/install.html.
 
-It's important to note that these libraries need to be installed separately and properly configured to ensure the full functionality of the SIAM Transformer package. The library's documentation provides detailed instructions on how to do this.
+It's important to note that these libraries need to be installed separately and properly configured to ensure the full functionality of the SCALIN package. The library's documentation provides detailed instructions on how to do this.
 
 ## Tutorial 
 
-The SIAM Transformer package includes comprehensive tutorials located in the main directory. The tutorials cover two major components of using the software: 
+The SCALIN package includes comprehensive tutorials located in the main directory. The tutorials cover two major components of using the software: 
 
 1. **Generating the Database**: The first tutorial guides you through the process of creating a database suitable for training the neural network. This involves preparing and structuring your data in a way that can be efficiently processed by the model. 
 

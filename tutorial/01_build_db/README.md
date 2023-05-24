@@ -17,7 +17,7 @@ aim_samples controls number sample generate for each parallel process.
 ```bash
 bash ./inputs/gen_db_spawn.sh  $NP
 
-bash ./inputs/gen_db_spawn.sh  4
+bash ./inputs/gen_db_spawn.sh  18
 ```
 
 $NP stands for number of parallel process. While inside of each subprocess, there are two parts. 1) Randomly generate SIAM samples by ``ML_dmft_gendb.py`` which will generate `./db/aim_param.csv`. 2) truncation of Hamitonian by ``ML_dmft_fit_truncated_aim_params.py``. 
@@ -39,7 +39,7 @@ After SIAM samples are generated, 'solve_db_spawn.sh' will solve items in `./db/
 ```
 bash ./inputs/solve_db_spawn.sh  $NP
 
-bash ./inputs/solve_db_spawn.sh  8
+bash ./inputs/solve_db_spawn.sh  18
 ```
 
 The outputs will be in `./db/{solver used}/{which SIAM params or row number solved in aim_param.csv}`
