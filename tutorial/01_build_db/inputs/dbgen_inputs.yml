@@ -1,0 +1,33 @@
+main-settings:
+    aim_samples : 10 #int
+
+gf-settings:
+    beta : 100
+
+aim-settings:
+    bethe : True
+    discrete : False
+
+mit-db:
+    mott_num : 0 #0 to turn off
+    U_0_shift : False # True to add a U0 between 0~1 to db U terms, only activate with mott_num>0
+
+semi-fit-settings:
+    fit_err_init : 1.0e-4
+    max_fit_err_tol : 1.
+    err_tol_fix : True
+    fit_method : 'BFGS' # 'CG' 
+    delta_from_zero : 1.0e-3 #small shift from zero.
+    fit_max_iter : 10 #max iteration for fitting "outerlook"
+    minimizer_maxiter : 20 #max iteration for solver
+    init_V_bound : [-3,3] #initial bound as guess.
+    init_e_bound : [-3,3]
+
+database:
+    half-filled : True
+    U_ : [0,10]
+    eps_ : [-6, 6] 
+    D_ : [1, 1]
+    V_ : [-3.,3] 
+    e_ : [-5.,5.]
+    N_ : 7

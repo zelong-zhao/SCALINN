@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: SIAM-Transformer
+Version: 1.0.0
+Summary: SIAM Database Generation tools and Transformer Regression Package.
+Author: Zelong Zhao
+Author-email: zelongzhao@hotmail.com
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

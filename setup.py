@@ -20,7 +20,6 @@ setuptools.setup(
             'ML_dmft/pytorch_bin/andT_main.py',
             'ML_dmft/pytorch_bin/andT_analysis.py',
             'ML_dmft/pytorch_bin/andT_checkpoints_analysis.py',
-            'ML_dmft/pytorch_bin/andT_cp_input.sh',
             ],
     classifiers=[
         "Programming Language :: Python :: 3.8",
