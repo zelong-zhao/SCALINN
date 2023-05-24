@@ -1,0 +1,1 @@
+from .model_interface import model_interface,model_type2dataloader_input_type
