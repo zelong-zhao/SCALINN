@@ -21,11 +21,6 @@ def read_args():
     parser.add_argument('--plot_checkpoints', action='store_true', default=False,
                 help='(action) --plot_checkpoints (False)')
                 
-    parser.add_argument('--save_to_db', action='store_true', default=False,
-                help='(action) save ML predicted to database/db/ dir defualt(False)')
-
-    parser.add_argument('--db_name', type=str, default='AndT',help='dump to predicted G to directory/db/db_name/0 default(PRW)',required='--save_to_db' in sys.argv)
-
     parser.add_argument('--directory','-d', type=str, default='./model_parameter/train/',help='path to find --file-rule dafault(./model_parameter/train/)')
     parser.add_argument('--file-rule', type=str, default='model_epoch_*.pth',help='default(model_epoch_*.pth)')
 

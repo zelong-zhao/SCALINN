@@ -18,5 +18,7 @@ def main():
     if args.plot_one_file:
         _plot_one_file(args)
 
+    #TODO add different name to here as plot by index 
+
 if __name__ == '__main__':
     main()
