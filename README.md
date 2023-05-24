@@ -1,7 +1,6 @@
 # SIAM Transformer
 
-SIAM Transformer is a python package to simulate DMFT with Machine Learning code.
-
+SIAM Transformer is a Python package that uses Machine Learning to simulate Dynamical Mean-Field Theory (DMFT). 
 
 ## Installation 
 
@@ -11,17 +10,24 @@ bash ./install.sh dmft_env
 
 ### Optional Package
 
-A interface of Exact Diagolisation (ED) code of solving Anderon impurity model (AIM) is given in the libaray. However, the kernal need to be installed manually via https://github.com/francoisjamet/ed_solver. As well as HubbardI solver, the kernal is refered to https://triqs.github.io/hubbardI/latest/install.html .
+SIAM Transformer provides an interface for the Exact Diagonalization (ED) method of solving the Anderson Impurity Model (AIM). This ED method implementation can be found in an external library, and it needs to be installed manually from this GitHub repository: https://github.com/francoisjamet/ed_solver. As well as HubbardI solver, the kernal is refered to https://triqs.github.io/hubbardI/latest/install.html.
 
+It's important to note that these libraries need to be installed separately and properly configured to ensure the full functionality of the SIAM Transformer package. The library's documentation provides detailed instructions on how to do this.
 
 ## Tutorial 
 
-Tutorial is given in main direcory. This code including two main parts. Gerenating database and fitting the database with neuron network. The instruction on generating database in tutorial 1 and the instruction on training the database is in tutorial 2. Furthermore, a train Transformer is also attached.
+The SIAM Transformer package includes comprehensive tutorials located in the main directory. The tutorials cover two major components of using the software: 
+
+1. **Generating the Database**: The first tutorial guides you through the process of creating a database suitable for training the neural network. This involves preparing and structuring your data in a way that can be efficiently processed by the model. 
+
+2. **Training the Model**: The second tutorial explains how to train your neural network using the prepared database. It provides instructions on setting up the training parameters, running the training process, and evaluating the model's performance.
+
+Moreover, the package comes with a pre-trained Transformer model, which allows you to get started quickly without having to train a model from scratch. This can be especially useful for understanding how the Transformer model works or for testing it on your own data.
 
 
 ## Author Info.
 
-any issues please contact with zelongzhao@hotmail.com
+Any issues please contact with zelongzhao@hotmail.com
 
 
 # LICENSE
