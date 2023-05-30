@@ -1,6 +1,6 @@
-# SCALIN package 
+# SCALINN package 
 
-Strongly Correlated Approach with Language Inspired Neuranet (SCALIN) is a Python package that uses nueron network to simulate Dynamical Mean-Field Theory (DMFT). 
+Strongly Correlated Approach with Language Inspired Neural Network (SCALINN) is a Python package that uses nueron network to simulate Dynamical Mean-Field Theory (DMFT). 
 
 ## Installation 
 
